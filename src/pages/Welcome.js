@@ -3,12 +3,16 @@ import { View,Text,StyleSheet } from "react-native";
 import Button from "../components/Button/Button";
 
 
-function Welcome() {
+function Welcome({navigation}) {
+
+    function goToMemberSign() {
+        navigation.navigate('MemberSignScreen')
+    }
 
     return(
         <View style = {styles.container}>
-            <Text style = {styles.header}>Welcome</Text>
-            <Button  text = 'Create a member registration' onPress = {null}/>
+            <Text style = {styles.header}>Kebap Fitness Studio</Text>
+            <Button  text = 'Create a member registration' onPress = {goToMemberSign}/>
         </View>
     )
     
