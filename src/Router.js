@@ -1,30 +1,29 @@
-import React from 'react'
-import {NavigationContainer} from '@react-navigation/native'
-import {createNativeStackNavigator} from '@react-navigation/native-stack'
-import Welcome from './pages/Welcome';
-import MemberSign from './pages/MemberSign';
-import MemberResult from './pages/MemberResult';
+import React from "react";
+import { View, Text } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import Primary from "./Pages/Primary";
+import Secondary from "./Pages/Secondary";
+import UserProvider from "./context/Provider";
 
 
 
-const Stack = createNativeStackNavigator();
 
-function App() {
-  return(
-    <NavigationContainer>
-      <Stack.Navigator screenOptions = {{
-        headerShown : false,
-      }} >
+const Tab = createBottomTabNavigator();
 
-          <Stack.Screen  name = 'WelcomeScreen' component = {Welcome}  />
-          
-          <Stack.Screen name = 'MemberSignScreen' component = {MemberSign}/>
+const  Router = () => {
 
-          <Stack.Screen name = 'MemberResultScreen' component = {MemberResult} />
-         
-      </Stack.Navigator >
-    </NavigationContainer>
-  )
+    return (
+       <UserProvider>
+        <NavigationContainer>
+            <Tab.Navigator>
+                <Tab.Screen name = 'Primary' component = {Primary} />
+                <Tab.Screen name = 'Secondary' component = {Secondary} />
+            </Tab.Navigator>
+        </NavigationContainer>
+        </UserProvider>
+      
+    )
 }
 
-export default App;
+export default Router;
