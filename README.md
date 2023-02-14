@@ -2,7 +2,6 @@
 <h1 align="center">Hi there👋, I'm Ömer Duman</h1>
 <h3 align="center">A passionate Junior Developer</h3>
 
-- 🌱 I’m currently learning Java Script, React.js, TypeScript, Jest**
 
 - 📫 How to reach me **omer.duman@gmx.de**
 
