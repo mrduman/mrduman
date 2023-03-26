@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi there👋, I'm Ömer Duman</h1>
-<h3 align="center">A passionate Junior Developer</h3>
+<h3 align="center">A passionate Junior Frontend Developer</h3>
 
 
 - 📫 How to reach me **omer.duman@gmx.de**
