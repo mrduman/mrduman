@@ -1,6 +1,6 @@
 
-<h1 align="center">Hi there👋, I'm Ömer Duman</h1>
-<h3 align="center">A passionate Junior Frontend Developer</h3>
+<h2 align="center">Hi there👋, I'm Ömer Duman  </h2>
+<h5 >A passionate Junior Frontend Developer</h5>
 
 
 - 📫 How to reach me **omer.duman@gmx.de**
@@ -35,6 +35,4 @@
 </p>
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mrduman)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mrduman&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/mrduman/github-readme-stats)
