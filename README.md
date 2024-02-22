@@ -1,6 +1,6 @@
 
 <h2 align="center">Hi there👋, I'm Ömer Duman  😄</h2>
-<h5 > 🌍  A passionate Frontend Developer</h5>
+<h4 > 🌍  A passionate Frontend Developer</h4>
 
 
 - 📫 How to reach me **omer.duman@gmx.de**
